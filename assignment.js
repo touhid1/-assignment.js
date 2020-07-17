@@ -61,7 +61,7 @@ function brickCalculator(floor){
         var totalBricks = (nthFloor * feetBybricks) + secondRange;
         return "total " +totalBricks;
     }else{
-        return "number of floor is invalid" + '"' + " Brick"
+        return "number of floor is invalid" 
     }
 }
 console.log(brickCalculator(40));
